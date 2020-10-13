@@ -292,31 +292,31 @@ var App = function() {
         return auth_digest;
     }
 
-    var menu = function() {
-        $(document).ready(function() {
+    // var menu = function() {
+    //     $(document).ready(function() {
 
-            $('.first-button').on('click', function() {
+    //         $('.first-button').on('click', function() {
 
-                $('.animated-icon1').toggleClass('open');
-            });
-            $('.second-button').on('click', function() {
+    //             $('.animated-icon1').toggleClass('open');
+    //         });
+    //         $('.second-button').on('click', function() {
 
-                $('.animated-icon2').toggleClass('open');
-            });
-            $('.third-button').on('click', function() {
+    //             $('.animated-icon2').toggleClass('open');
+    //         });
+    //         $('.third-button').on('click', function() {
 
-                $('.animated-icon3').toggleClass('open');
-            });
-        });
-    }
+    //             $('.animated-icon3').toggleClass('open');
+    //         });
+    //     });
+    // }
 
     return {
         init: function() {
             return init();
         },
-        menu: function() {
-            return menu();
-        },
+        // menu: function() {
+        //     return menu();
+        // },
         arrayToForm: function(formArray) {
             return arrayToForm(formArray);
         },
