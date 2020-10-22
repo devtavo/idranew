@@ -193,8 +193,8 @@ a:hover {
 }
 
 section.pricing {
-    background: #007bff8c;
-    background: linear-gradient(to right, rgba(4, 28, 95, 0.856), rgba(10, 16, 68, 0.856));
+    /* background: #007bff8c; */
+    /* background: linear-gradient(to right, rgba(4, 28, 95, 0.856), rgba(10, 16, 68, 0.856)); */
 }
 
 .pricing .card {
