@@ -150,6 +150,11 @@ div {
         width: 350px;
         height: 200px;
     }
+    .imagenlateral {
+        width: 339px;
+        height: 361px;
+        image-resolution: 339px;
+    }
 }
 
 ul#ejm2 li a {
@@ -266,6 +271,12 @@ section.pricing {
     .pricing .card:hover .btn {
         opacity: 1;
     }
+}
+
+.imagenlateral {
+    width: 339px;
+    height: 361px;
+    align-items: center;
 }
 
 
