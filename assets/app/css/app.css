@@ -6,7 +6,7 @@
 }
 
 div {
-    border: 0px solid;
+    border: 0.2px solid;
 }
 
 .cabece {
@@ -311,17 +311,27 @@ section.pricing {
     position: relative;
     top: -80px;
     left: 20px;
-    background: white;
+    background: rgb(250, 248, 248);
     border-radius: 20px;
     padding: 20px;
+    box-shadow: 0px 0px 20px 10px rgba(0, 0, 0, 0.16);
 }
 
 .caracteristica {
     font-size: 1.2em;
     font-weight: 900;
     text-align: center;
+    color: rgb(6, 3, 43);
     font-family: 'Roboto', sans-serif;
     margin-top: 0.7em;
-    border-radius: 10px;
-    back
+    border-radius: 0px 0px 20px 10px rgba(0, 0, 0, 0.16);
+}
+
+.caracteristica-alt {
+    font-size: 10px;
+    font-weight: 900;
+    text-align: center;
+    color: rgb(39, 38, 38);
+    font-family: 'Roboto', sans-serif;
+    border-radius: 0px 0px 20px 10px rgba(0, 0, 0, 0.16);
 }
