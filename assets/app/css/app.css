@@ -155,6 +155,11 @@ div {
         height: 361px;
         image-resolution: 339px;
     }
+    .formatos {
+        padding-left: 0px;
+        width: 350px;
+        height: 100px;
+    }
 }
 
 ul#ejm2 li a {
@@ -325,24 +330,59 @@ section.pricing {
     background: rgb(250, 248, 248);
     border-radius: 20px;
     padding: 20px;
-    box-shadow: 0px 0px 20px 10px rgba(0, 0, 0, 0.16);
+    box-shadow: 0px 0px 20 px 10px rgba(0, 0, 0, 0.16);
 }
 
 .caracteristica {
     font-size: 1.2em;
     font-weight: 900;
     text-align: center;
-    color: rgb(6, 3, 43);
+    color: rgb(16, 43, 3);
     font-family: 'Roboto', sans-serif;
     margin-top: 0.7em;
-    border-radius: 0px 0px 20px 10px rgba(0, 0, 0, 0.16);
 }
 
 .caracteristica-alt {
     font-size: 10px;
     font-weight: 900;
     text-align: center;
-    color: rgb(39, 38, 38);
+    color: rgb(30, 1, 133);
     font-family: 'Roboto', sans-serif;
-    border-radius: 0px 0px 20px 10px rgba(0, 0, 0, 0.16);
 }
+
+.descripcion-bloque {
+    padding: 20px;
+    border-radius: 10px;
+    background: rgba(128, 128, 128, 0.248);
+}
+
+.descripcion-titulo {
+    color: rgba(17, 1, 107, 0.796);
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5em;
+}
+
+.descripcion-contenido {
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.05em;
+    color: rgb(82, 81, 81);
+}
+
+.presentacion-bloque {
+    margin-top: 20px;
+    text-align: center;
+    padding: 50px;
+    background: yellow;
+}
+
+.nav-tabs {
+    background: yellow;
+}
+
+.formatos {
+    padding-left: 350px;
+}
+
+.pagador {}
